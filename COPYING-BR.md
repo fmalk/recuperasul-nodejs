@@ -183,3 +183,61 @@ Versões posteriores da licença podem lhe dar permissões adicionais ou diferen
     Se a renúncia de garantia e a limitação de responsabilidade previstos acima não puderem ter efeito legal local de acordo com seus termos, os tribunais revisionais aplicarão a lei local que se aproxima mais de uma renúncia absoluta a toda a responsabilidade civil em conexão com o Programa, a menos que uma garantia ou suposição de responsabilidade acompanhe uma cópia do Programa em troca de uma taxa.
 
 ## FIM DOS TERMOS E CONDIÇÕES
+
+## Como Aplicar Esses Termos a Seus Novos Programas
+
+Se você desenvolver um novo programa, e deseja que seja do melhor uso possível para o público, a melhor maneira de conseguir isso é torná-lo software livre, o qual todos podem redistribuir e mudar de acordo sob esses termos.
+
+Para fazer isso, anexe os seguintes avisos ao programa. É mais seguro anexá-los ao início de cada arquivo fonte para indicar com maior eficiência a exclusão da garantia; e cada arquivo deve ter pelo menos a linha “copyright” e apontar para onde o aviso completo é encontrado.
+
+    <one line to give the program's name and a brief idea of what it does.>
+    Copyright (C) <year>  <name of author>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+Em português, seria o equivalente a:
+
+    <uma linha para dar o nome do programa e uma ideia breve do que faz.>
+    Copyright (C) <ano>  <nome do autor>
+
+    Este programa é um software livre: você pode redistribuí-lo e/ou
+    modificá-lo sob os termos da Licença Pública Geral GNU, conforme
+    publicado pela Free Software Foundation, seja a versão 3 da Licença
+    ou (a seu critério) qualquer versão posterior.
+
+    Este programa é distribuído na esperança de que seja útil,
+    mas SEM QUALQUER GARANTIA; sem a garantia implícita de
+    COMERCIALIZAÇÃO OU ADEQUAÇÃO A UM DETERMINADO PROPÓSITO. Veja a
+    Licença Pública Geral GNU para obter mais detalhes.
+
+    Você deve ter recebido uma cópia da Licença Pública Geral GNU
+    junto com este programa. Se não, veja <https://www.gnu.org/licenses/>.
+Adicione também informações sobre como entrar em contato com você por correio eletrônico e papel.
+
+Se o programa faz a interação por terminal, faça com que ele emita um breve aviso como este quando ele começar em um modo interativo:
+
+    <program>  Copyright (C) <year>  <name of author>
+    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; type `show c' for details.
+Em português, seria o equivalente a:
+
+    <programa> Copyright (C) <ano>  <nome do autor>
+    Este programa vem com ABSOLUTAMENTE NENHUMA GARANTIA; para detalhes,
+    digite `show w'. Este é um software livre, e você pode redistribuí-lo
+    sob certas condições; digite `show c' para obter detalhes.
+Os comandos hipotéticos `show w' e `show c' devem mostrar as partes apropriadas da Licença Pública Geral. Claro, os comandos do seu programa podem ser diferentes; para uma interface GUI, você usaria uma caixa “about” (sobre).
+
+Você também deve fazer com que o seu empregador (se você trabalha como programador) ou a escola, se for o caso, assine uma “renúncia de copyright” para o programa, se necessário. Para obter mais informações sobre isso e sobre como aplicar e seguir a GNU GPL, consulte <https://www.gnu.org/licenses/>.
+
+A Licença Pública Geral GNU não permite a incorporação do seu programa em programas proprietários. Se o seu programa é uma biblioteca de sub-rotina, você pode considerá-la mais útil para permitir a conexão de aplicativos proprietários com a biblioteca. Se isso for o que você quer fazer, use a Licença Pública Geral Menor GNU em vez desta Licença. Mas, primeiro, leia <https://www.gnu.org/licenses/why-not-lgpl.html>.
