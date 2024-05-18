@@ -4,8 +4,8 @@ import { ConfigModule } from '@nestjs/config';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { AppController } from './app.controller';
 import { StatusController } from './status.controller';
-import { DatabaseModule, featureEntities } from './database.module';
 import { join } from 'path';
+import { SupabaseService } from './supabase.service';
 
 @Module({
   imports: [
@@ -18,11 +18,9 @@ import { join } from 'path';
       rootPath: join(__dirname, '..', 'public'),
       exclude: ['/status','/backend/(.*)'],
     }),
-    DatabaseModule,
     HttpModule,
-    featureEntities
   ],
   controllers: [StatusController, AppController],
-  providers: [],
+  providers: [SupabaseService],
 })
 export class AppModule {}

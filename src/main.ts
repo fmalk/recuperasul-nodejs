@@ -1,5 +1,5 @@
 import { config } from 'dotenv';
-config();
+config({ path: `.env.${process.env.NODE_ENV === 'PRD' ? 'prd' : 'dev'}` });
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { ConfigService } from '@nestjs/config';
