@@ -18,6 +18,8 @@ import { ConfigModule } from '@nestjs/config';
       synchronize: false,
       autoLoadEntities: true,
       keepConnectionAlive: true,
+      migrationsTableName: 'migrations',
+      migrationsRun: false,
     }),
   ],
   controllers: [],
